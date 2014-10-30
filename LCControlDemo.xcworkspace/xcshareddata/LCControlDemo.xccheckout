@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A665738C-8C76-4BB6-B2F9-F3062C1A72CA</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>23533FDC263BB0B431C550D608943884A5DD92C4</key>
+		<string>http://172.16.128.161/ios/lclibrary.git</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>23533FDC263BB0B431C550D608943884A5DD92C4</key>
+		<string>LCLibrary</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://172.16.128.161/ios/lclibrary.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>23533FDC263BB0B431C550D608943884A5DD92C4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>23533FDC263BB0B431C550D608943884A5DD92C4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LCLibrary</string>
+		</dict>
+	</array>
+</dict>
+</plist>

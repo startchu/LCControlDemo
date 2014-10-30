@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4070E22B1A00E2BB00AD79C2 /* page_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4070E2271A00E2BB00AD79C2 /* page_1@2x.png */; };
+		4070E22C1A00E2BB00AD79C2 /* page_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4070E2281A00E2BB00AD79C2 /* page_2@2x.png */; };
+		4070E22D1A00E2BB00AD79C2 /* page_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4070E2291A00E2BB00AD79C2 /* page_3@2x.png */; };
+		4070E22E1A00E2BB00AD79C2 /* page_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4070E22A1A00E2BB00AD79C2 /* page_4@2x.png */; };
+		4070E2341A00E9E100AD79C2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4070E22F1A00E9E100AD79C2 /* Default-568h@2x.png */; };
+		4070E2351A00E9E100AD79C2 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4070E2301A00E9E100AD79C2 /* Default-667h@2x.png */; };
+		4070E2361A00E9E100AD79C2 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4070E2311A00E9E100AD79C2 /* Default-736h@3x.png */; };
+		4070E2371A00E9E100AD79C2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4070E2321A00E9E100AD79C2 /* Default.png */; };
+		4070E2381A00E9E100AD79C2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4070E2331A00E9E100AD79C2 /* Default@2x.png */; };
+		40E1F0411A008034003E658B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E1F0401A008034003E658B /* main.m */; };
+		40E1F0441A008034003E658B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E1F0431A008034003E658B /* AppDelegate.m */; };
+		40E1F0471A008034003E658B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E1F0461A008034003E658B /* ViewController.m */; };
+		40E1F04C1A008034003E658B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E1F04B1A008034003E658B /* Images.xcassets */; };
+		40E1F05B1A008034003E658B /* LCControlDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E1F05A1A008034003E658B /* LCControlDemoTests.m */; };
+		40E1F0651A008073003E658B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E1F0641A008073003E658B /* ViewController.xib */; };
+		40E1F0691A00839E003E658B /* LCPageControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E1F0671A00839E003E658B /* LCPageControlViewController.m */; };
+		40E1F06A1A00839E003E658B /* LCPageControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E1F0681A00839E003E658B /* LCPageControlViewController.xib */; };
+		40E1F06E1A00885D003E658B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E1F06D1A00885D003E658B /* Foundation.framework */; };
+		40E1F0701A008861003E658B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E1F06F1A008861003E658B /* UIKit.framework */; };
+		40E1F0721A00887C003E658B /* libLCLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E1F0711A00887C003E658B /* libLCLibrary.a */; };
+		40F070A81A01D2D5002DD1E6 /* LCCountDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F070A61A01D2D5002DD1E6 /* LCCountDownViewController.m */; };
+		40F070A91A01D2D5002DD1E6 /* LCCountDownViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40F070A71A01D2D5002DD1E6 /* LCCountDownViewController.xib */; };
+		40F070AC1A01D47E002DD1E6 /* btn_disabled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40F070AA1A01D47E002DD1E6 /* btn_disabled@2x.png */; };
+		40F070AD1A01D47E002DD1E6 /* btn_nomal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40F070AB1A01D47E002DD1E6 /* btn_nomal@2x.png */; };
+		40F070B11A01D4F6002DD1E6 /* LCPlaceHolderTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F070AF1A01D4F6002DD1E6 /* LCPlaceHolderTextViewController.m */; };
+		40F070B21A01D4F6002DD1E6 /* LCPlaceHolderTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40F070B01A01D4F6002DD1E6 /* LCPlaceHolderTextViewController.xib */; };
+		40F070B41A01D648002DD1E6 /* bg_common_input@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40F070B31A01D648002DD1E6 /* bg_common_input@2x.png */; };
+		40F070B81A01D711002DD1E6 /* LCStarRatingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F070B61A01D711002DD1E6 /* LCStarRatingViewController.m */; };
+		40F070B91A01D711002DD1E6 /* LCStarRatingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40F070B71A01D711002DD1E6 /* LCStarRatingViewController.xib */; };
+		40F070BC1A01D7DA002DD1E6 /* star_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40F070BA1A01D7DA002DD1E6 /* star_highlight@2x.png */; };
+		40F070BD1A01D7DA002DD1E6 /* star_nomal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40F070BB1A01D7DA002DD1E6 /* star_nomal@2x.png */; };
+		40F070C11A01D86D002DD1E6 /* LCMarqueeLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F070BF1A01D86D002DD1E6 /* LCMarqueeLabelViewController.m */; };
+		40F070C21A01D86D002DD1E6 /* LCMarqueeLabelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40F070C01A01D86D002DD1E6 /* LCMarqueeLabelViewController.xib */; };
+		40F070C61A01D89C002DD1E6 /* LCTagViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F070C41A01D89C002DD1E6 /* LCTagViewViewController.m */; };
+		40F070C71A01D89C002DD1E6 /* LCTagViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40F070C51A01D89C002DD1E6 /* LCTagViewViewController.xib */; };
+		40F070CE1A020AE5002DD1E6 /* LCSegmentControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F070CC1A020AE5002DD1E6 /* LCSegmentControlViewController.m */; };
+		40F070CF1A020AE5002DD1E6 /* LCSegmentControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40F070CD1A020AE5002DD1E6 /* LCSegmentControlViewController.xib */; };
+		40F070D11A020B42002DD1E6 /* line_secondlevel_seperater@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40F070D01A020B42002DD1E6 /* line_secondlevel_seperater@2x.png */; };
+		40F070D51A020B8D002DD1E6 /* line_common_segment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40F070D41A020B8D002DD1E6 /* line_common_segment@2x.png */; };
+		40F070D71A020B96002DD1E6 /* icon_arrow_segment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40F070D61A020B96002DD1E6 /* icon_arrow_segment@2x.png */; };
+		40F070D91A020F4A002DD1E6 /* seg_nomal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40F070D81A020F4A002DD1E6 /* seg_nomal@2x.png */; };
+		40F070DB1A020FBC002DD1E6 /* seg_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40F070DA1A020FBC002DD1E6 /* seg_selected@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40E1F0551A008034003E658B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40E1F0331A008034003E658B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40E1F03A1A008034003E658B;
+			remoteInfo = LCControlDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4070E2271A00E2BB00AD79C2 /* page_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page_1@2x.png"; sourceTree = "<group>"; };
+		4070E2281A00E2BB00AD79C2 /* page_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page_2@2x.png"; sourceTree = "<group>"; };
+		4070E2291A00E2BB00AD79C2 /* page_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page_3@2x.png"; sourceTree = "<group>"; };
+		4070E22A1A00E2BB00AD79C2 /* page_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page_4@2x.png"; sourceTree = "<group>"; };
+		4070E22F1A00E9E100AD79C2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4070E2301A00E9E100AD79C2 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		4070E2311A00E9E100AD79C2 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		4070E2321A00E9E100AD79C2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4070E2331A00E9E100AD79C2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		40E1F03B1A008034003E658B /* LCControlDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCControlDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E1F03F1A008034003E658B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40E1F0401A008034003E658B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40E1F0421A008034003E658B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		40E1F0431A008034003E658B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40E1F0451A008034003E658B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		40E1F0461A008034003E658B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		40E1F04B1A008034003E658B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		40E1F0541A008034003E658B /* LCControlDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCControlDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E1F0591A008034003E658B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40E1F05A1A008034003E658B /* LCControlDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCControlDemoTests.m; sourceTree = "<group>"; };
+		40E1F0641A008073003E658B /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		40E1F0661A00839E003E658B /* LCPageControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCPageControlViewController.h; sourceTree = "<group>"; };
+		40E1F0671A00839E003E658B /* LCPageControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCPageControlViewController.m; sourceTree = "<group>"; };
+		40E1F0681A00839E003E658B /* LCPageControlViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCPageControlViewController.xib; sourceTree = "<group>"; };
+		40E1F06C1A008593003E658B /* LCControlDemo-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LCControlDemo-prefix.pch"; sourceTree = "<group>"; };
+		40E1F06D1A00885D003E658B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		40E1F06F1A008861003E658B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		40E1F0711A00887C003E658B /* libLCLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLCLibrary.a; path = "../LCLibrary/build/Debug-iphoneos/libLCLibrary.a"; sourceTree = "<group>"; };
+		40F070A51A01D2D5002DD1E6 /* LCCountDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCountDownViewController.h; sourceTree = "<group>"; };
+		40F070A61A01D2D5002DD1E6 /* LCCountDownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCountDownViewController.m; sourceTree = "<group>"; };
+		40F070A71A01D2D5002DD1E6 /* LCCountDownViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCCountDownViewController.xib; sourceTree = "<group>"; };
+		40F070AA1A01D47E002DD1E6 /* btn_disabled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_disabled@2x.png"; sourceTree = "<group>"; };
+		40F070AB1A01D47E002DD1E6 /* btn_nomal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_nomal@2x.png"; sourceTree = "<group>"; };
+		40F070AE1A01D4F6002DD1E6 /* LCPlaceHolderTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCPlaceHolderTextViewController.h; sourceTree = "<group>"; };
+		40F070AF1A01D4F6002DD1E6 /* LCPlaceHolderTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCPlaceHolderTextViewController.m; sourceTree = "<group>"; };
+		40F070B01A01D4F6002DD1E6 /* LCPlaceHolderTextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCPlaceHolderTextViewController.xib; sourceTree = "<group>"; };
+		40F070B31A01D648002DD1E6 /* bg_common_input@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_common_input@2x.png"; sourceTree = "<group>"; };
+		40F070B51A01D711002DD1E6 /* LCStarRatingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCStarRatingViewController.h; sourceTree = "<group>"; };
+		40F070B61A01D711002DD1E6 /* LCStarRatingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCStarRatingViewController.m; sourceTree = "<group>"; };
+		40F070B71A01D711002DD1E6 /* LCStarRatingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCStarRatingViewController.xib; sourceTree = "<group>"; };
+		40F070BA1A01D7DA002DD1E6 /* star_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star_highlight@2x.png"; sourceTree = "<group>"; };
+		40F070BB1A01D7DA002DD1E6 /* star_nomal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star_nomal@2x.png"; sourceTree = "<group>"; };
+		40F070BE1A01D86D002DD1E6 /* LCMarqueeLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCMarqueeLabelViewController.h; sourceTree = "<group>"; };
+		40F070BF1A01D86D002DD1E6 /* LCMarqueeLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCMarqueeLabelViewController.m; sourceTree = "<group>"; };
+		40F070C01A01D86D002DD1E6 /* LCMarqueeLabelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCMarqueeLabelViewController.xib; sourceTree = "<group>"; };
+		40F070C31A01D89C002DD1E6 /* LCTagViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCTagViewViewController.h; sourceTree = "<group>"; };
+		40F070C41A01D89C002DD1E6 /* LCTagViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCTagViewViewController.m; sourceTree = "<group>"; };
+		40F070C51A01D89C002DD1E6 /* LCTagViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCTagViewViewController.xib; sourceTree = "<group>"; };
+		40F070CB1A020AE5002DD1E6 /* LCSegmentControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCSegmentControlViewController.h; sourceTree = "<group>"; };
+		40F070CC1A020AE5002DD1E6 /* LCSegmentControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCSegmentControlViewController.m; sourceTree = "<group>"; };
+		40F070CD1A020AE5002DD1E6 /* LCSegmentControlViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCSegmentControlViewController.xib; sourceTree = "<group>"; };
+		40F070D01A020B42002DD1E6 /* line_secondlevel_seperater@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line_secondlevel_seperater@2x.png"; sourceTree = "<group>"; };
+		40F070D41A020B8D002DD1E6 /* line_common_segment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line_common_segment@2x.png"; sourceTree = "<group>"; };
+		40F070D61A020B96002DD1E6 /* icon_arrow_segment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_arrow_segment@2x.png"; sourceTree = "<group>"; };
+		40F070D81A020F4A002DD1E6 /* seg_nomal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "seg_nomal@2x.png"; sourceTree = "<group>"; };
+		40F070DA1A020FBC002DD1E6 /* seg_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "seg_selected@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40E1F0381A008034003E658B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E1F0721A00887C003E658B /* libLCLibrary.a in Frameworks */,
+				40E1F0701A008861003E658B /* UIKit.framework in Frameworks */,
+				40E1F06E1A00885D003E658B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E1F0511A008034003E658B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4070E2261A00E2BB00AD79C2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4070E2271A00E2BB00AD79C2 /* page_1@2x.png */,
+				4070E2281A00E2BB00AD79C2 /* page_2@2x.png */,
+				4070E2291A00E2BB00AD79C2 /* page_3@2x.png */,
+				4070E22A1A00E2BB00AD79C2 /* page_4@2x.png */,
+				40F070AA1A01D47E002DD1E6 /* btn_disabled@2x.png */,
+				40F070AB1A01D47E002DD1E6 /* btn_nomal@2x.png */,
+				40F070B31A01D648002DD1E6 /* bg_common_input@2x.png */,
+				40F070BA1A01D7DA002DD1E6 /* star_highlight@2x.png */,
+				40F070BB1A01D7DA002DD1E6 /* star_nomal@2x.png */,
+				40F070D01A020B42002DD1E6 /* line_secondlevel_seperater@2x.png */,
+				40F070D61A020B96002DD1E6 /* icon_arrow_segment@2x.png */,
+				40F070D41A020B8D002DD1E6 /* line_common_segment@2x.png */,
+				40F070D81A020F4A002DD1E6 /* seg_nomal@2x.png */,
+				40F070DA1A020FBC002DD1E6 /* seg_selected@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		40E1F0321A008034003E658B = {
+			isa = PBXGroup;
+			children = (
+				40E1F0711A00887C003E658B /* libLCLibrary.a */,
+				4070E22F1A00E9E100AD79C2 /* Default-568h@2x.png */,
+				4070E2301A00E9E100AD79C2 /* Default-667h@2x.png */,
+				4070E2311A00E9E100AD79C2 /* Default-736h@3x.png */,
+				4070E2321A00E9E100AD79C2 /* Default.png */,
+				4070E2331A00E9E100AD79C2 /* Default@2x.png */,
+				40E1F06F1A008861003E658B /* UIKit.framework */,
+				40E1F06D1A00885D003E658B /* Foundation.framework */,
+				40E1F03D1A008034003E658B /* LCControlDemo */,
+				40E1F0571A008034003E658B /* LCControlDemoTests */,
+				40E1F03C1A008034003E658B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40E1F03C1A008034003E658B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40E1F03B1A008034003E658B /* LCControlDemo.app */,
+				40E1F0541A008034003E658B /* LCControlDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40E1F03D1A008034003E658B /* LCControlDemo */ = {
+			isa = PBXGroup;
+			children = (
+				40E1F0421A008034003E658B /* AppDelegate.h */,
+				40E1F0431A008034003E658B /* AppDelegate.m */,
+				40E1F0451A008034003E658B /* ViewController.h */,
+				40E1F0461A008034003E658B /* ViewController.m */,
+				40E1F0641A008073003E658B /* ViewController.xib */,
+				40E1F0661A00839E003E658B /* LCPageControlViewController.h */,
+				40E1F0671A00839E003E658B /* LCPageControlViewController.m */,
+				40E1F0681A00839E003E658B /* LCPageControlViewController.xib */,
+				40F070A51A01D2D5002DD1E6 /* LCCountDownViewController.h */,
+				40F070A61A01D2D5002DD1E6 /* LCCountDownViewController.m */,
+				40F070A71A01D2D5002DD1E6 /* LCCountDownViewController.xib */,
+				40F070AE1A01D4F6002DD1E6 /* LCPlaceHolderTextViewController.h */,
+				40F070AF1A01D4F6002DD1E6 /* LCPlaceHolderTextViewController.m */,
+				40F070B01A01D4F6002DD1E6 /* LCPlaceHolderTextViewController.xib */,
+				40F070B51A01D711002DD1E6 /* LCStarRatingViewController.h */,
+				40F070B61A01D711002DD1E6 /* LCStarRatingViewController.m */,
+				40F070B71A01D711002DD1E6 /* LCStarRatingViewController.xib */,
+				40F070BE1A01D86D002DD1E6 /* LCMarqueeLabelViewController.h */,
+				40F070BF1A01D86D002DD1E6 /* LCMarqueeLabelViewController.m */,
+				40F070C01A01D86D002DD1E6 /* LCMarqueeLabelViewController.xib */,
+				40F070C31A01D89C002DD1E6 /* LCTagViewViewController.h */,
+				40F070C41A01D89C002DD1E6 /* LCTagViewViewController.m */,
+				40F070C51A01D89C002DD1E6 /* LCTagViewViewController.xib */,
+				40F070CB1A020AE5002DD1E6 /* LCSegmentControlViewController.h */,
+				40F070CC1A020AE5002DD1E6 /* LCSegmentControlViewController.m */,
+				40F070CD1A020AE5002DD1E6 /* LCSegmentControlViewController.xib */,
+				40E1F04B1A008034003E658B /* Images.xcassets */,
+				4070E2261A00E2BB00AD79C2 /* Images */,
+				40E1F03E1A008034003E658B /* Supporting Files */,
+			);
+			path = LCControlDemo;
+			sourceTree = "<group>";
+		};
+		40E1F03E1A008034003E658B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40E1F03F1A008034003E658B /* Info.plist */,
+				40E1F0401A008034003E658B /* main.m */,
+				40E1F06C1A008593003E658B /* LCControlDemo-prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40E1F0571A008034003E658B /* LCControlDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				40E1F05A1A008034003E658B /* LCControlDemoTests.m */,
+				40E1F0581A008034003E658B /* Supporting Files */,
+			);
+			path = LCControlDemoTests;
+			sourceTree = "<group>";
+		};
+		40E1F0581A008034003E658B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40E1F0591A008034003E658B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40E1F03A1A008034003E658B /* LCControlDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40E1F05E1A008034003E658B /* Build configuration list for PBXNativeTarget "LCControlDemo" */;
+			buildPhases = (
+				40E1F0371A008034003E658B /* Sources */,
+				40E1F0381A008034003E658B /* Frameworks */,
+				40E1F0391A008034003E658B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LCControlDemo;
+			productName = LCControlDemo;
+			productReference = 40E1F03B1A008034003E658B /* LCControlDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40E1F0531A008034003E658B /* LCControlDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40E1F0611A008034003E658B /* Build configuration list for PBXNativeTarget "LCControlDemoTests" */;
+			buildPhases = (
+				40E1F0501A008034003E658B /* Sources */,
+				40E1F0511A008034003E658B /* Frameworks */,
+				40E1F0521A008034003E658B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40E1F0561A008034003E658B /* PBXTargetDependency */,
+			);
+			name = LCControlDemoTests;
+			productName = LCControlDemoTests;
+			productReference = 40E1F0541A008034003E658B /* LCControlDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40E1F0331A008034003E658B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = linkage;
+				TargetAttributes = {
+					40E1F03A1A008034003E658B = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					40E1F0531A008034003E658B = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 40E1F03A1A008034003E658B;
+					};
+				};
+			};
+			buildConfigurationList = 40E1F0361A008034003E658B /* Build configuration list for PBXProject "LCControlDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40E1F0321A008034003E658B;
+			productRefGroup = 40E1F03C1A008034003E658B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40E1F03A1A008034003E658B /* LCControlDemo */,
+				40E1F0531A008034003E658B /* LCControlDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40E1F0391A008034003E658B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4070E22C1A00E2BB00AD79C2 /* page_2@2x.png in Resources */,
+				40F070BC1A01D7DA002DD1E6 /* star_highlight@2x.png in Resources */,
+				40F070A91A01D2D5002DD1E6 /* LCCountDownViewController.xib in Resources */,
+				4070E22B1A00E2BB00AD79C2 /* page_1@2x.png in Resources */,
+				4070E2341A00E9E100AD79C2 /* Default-568h@2x.png in Resources */,
+				40F070AD1A01D47E002DD1E6 /* btn_nomal@2x.png in Resources */,
+				40F070BD1A01D7DA002DD1E6 /* star_nomal@2x.png in Resources */,
+				40F070D71A020B96002DD1E6 /* icon_arrow_segment@2x.png in Resources */,
+				40F070C71A01D89C002DD1E6 /* LCTagViewViewController.xib in Resources */,
+				4070E2361A00E9E100AD79C2 /* Default-736h@3x.png in Resources */,
+				40F070D11A020B42002DD1E6 /* line_secondlevel_seperater@2x.png in Resources */,
+				40F070AC1A01D47E002DD1E6 /* btn_disabled@2x.png in Resources */,
+				4070E2381A00E9E100AD79C2 /* Default@2x.png in Resources */,
+				40F070C21A01D86D002DD1E6 /* LCMarqueeLabelViewController.xib in Resources */,
+				40F070B91A01D711002DD1E6 /* LCStarRatingViewController.xib in Resources */,
+				4070E22E1A00E2BB00AD79C2 /* page_4@2x.png in Resources */,
+				40F070D91A020F4A002DD1E6 /* seg_nomal@2x.png in Resources */,
+				40E1F06A1A00839E003E658B /* LCPageControlViewController.xib in Resources */,
+				40F070B21A01D4F6002DD1E6 /* LCPlaceHolderTextViewController.xib in Resources */,
+				40F070DB1A020FBC002DD1E6 /* seg_selected@2x.png in Resources */,
+				4070E22D1A00E2BB00AD79C2 /* page_3@2x.png in Resources */,
+				4070E2371A00E9E100AD79C2 /* Default.png in Resources */,
+				40F070CF1A020AE5002DD1E6 /* LCSegmentControlViewController.xib in Resources */,
+				40E1F0651A008073003E658B /* ViewController.xib in Resources */,
+				40F070B41A01D648002DD1E6 /* bg_common_input@2x.png in Resources */,
+				40F070D51A020B8D002DD1E6 /* line_common_segment@2x.png in Resources */,
+				40E1F04C1A008034003E658B /* Images.xcassets in Resources */,
+				4070E2351A00E9E100AD79C2 /* Default-667h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E1F0521A008034003E658B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40E1F0371A008034003E658B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E1F0691A00839E003E658B /* LCPageControlViewController.m in Sources */,
+				40E1F0471A008034003E658B /* ViewController.m in Sources */,
+				40F070C61A01D89C002DD1E6 /* LCTagViewViewController.m in Sources */,
+				40F070B11A01D4F6002DD1E6 /* LCPlaceHolderTextViewController.m in Sources */,
+				40E1F0441A008034003E658B /* AppDelegate.m in Sources */,
+				40F070A81A01D2D5002DD1E6 /* LCCountDownViewController.m in Sources */,
+				40F070CE1A020AE5002DD1E6 /* LCSegmentControlViewController.m in Sources */,
+				40E1F0411A008034003E658B /* main.m in Sources */,
+				40F070B81A01D711002DD1E6 /* LCStarRatingViewController.m in Sources */,
+				40F070C11A01D86D002DD1E6 /* LCMarqueeLabelViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E1F0501A008034003E658B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E1F05B1A008034003E658B /* LCControlDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40E1F0561A008034003E658B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40E1F03A1A008034003E658B /* LCControlDemo */;
+			targetProxy = 40E1F0551A008034003E658B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		40E1F05C1A008034003E658B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		40E1F05D1A008034003E658B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40E1F05F1A008034003E658B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_FAST_MATH = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LCControlDemo/LCControlDemo-prefix.pch";
+				IBC_OTHER_FLAGS = "";
+				INFOPLIST_FILE = LCControlDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/zhaochuchu/Documents/LCLibrary/build/Debug-iphoneos",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../LCLibrary/**";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
+			};
+			name = Debug;
+		};
+		40E1F0601A008034003E658B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_FAST_MATH = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LCControlDemo/LCControlDemo-prefix.pch";
+				IBC_OTHER_FLAGS = "";
+				INFOPLIST_FILE = LCControlDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/zhaochuchu/Documents/LCLibrary/build/Debug-iphoneos",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../LCLibrary/**";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
+			};
+			name = Release;
+		};
+		40E1F0621A008034003E658B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LCControlDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LCControlDemo.app/LCControlDemo";
+			};
+			name = Debug;
+		};
+		40E1F0631A008034003E658B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LCControlDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LCControlDemo.app/LCControlDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40E1F0361A008034003E658B /* Build configuration list for PBXProject "LCControlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E1F05C1A008034003E658B /* Debug */,
+				40E1F05D1A008034003E658B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40E1F05E1A008034003E658B /* Build configuration list for PBXNativeTarget "LCControlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E1F05F1A008034003E658B /* Debug */,
+				40E1F0601A008034003E658B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40E1F0611A008034003E658B /* Build configuration list for PBXNativeTarget "LCControlDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E1F0621A008034003E658B /* Debug */,
+				40E1F0631A008034003E658B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40E1F0331A008034003E658B /* Project object */;
+}
